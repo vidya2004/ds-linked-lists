@@ -241,7 +241,7 @@ void main()
             break;
             case 10:head=reverse(head);
             break;
-            case 11:_Exit;
+            case 11:exit(1);
             default:printf("\ncheck choice entered")
         ;}
     }
